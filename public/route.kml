@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Saturday May 16 — Manhattan Wander</name>
+    <description>Food Festival → Dance Parade → DanceFest. 9 stops, west-to-east, walking pace. Anchored by the 9th Ave International Food Festival (10am–6pm) and DanceFest at Tompkins Square Park (3–7pm).</description>
+
+    <Style id="stopStyle">
+      <IconStyle>
+        <color>ff2196f3</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <Style id="routeStyle">
+      <LineStyle>
+        <color>ffe91e63</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+      <name>1 — Masseria Caffè (9:00 AM)</name>
+      <description><![CDATA[
+        <b>Coffee start.</b><br/>
+        891 9th Ave, near 57th St.<br/>
+        Strong espresso, no laptops, in-and-out. Pastries are real. Sets the tone before the food assault.<br/>
+        <i>~45 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9856429,40.7684962,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>2 — 9th Ave Food Festival, north entry (10:00 AM)</name>
+      <description><![CDATA[
+        <b>Enter at 57th, graze south to 42nd.</b><br/>
+        51st year. Mile-long. Best strategy: don't fill up on the first three blocks. Hold for the Greek and Portuguese stalls deeper in.<br/>
+        <i>~90 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9857354,40.767931,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>3 — High Line, 30th St entrance (12:00 PM)</name>
+      <description><![CDATA[
+        <b>Walk south on the elevated park.</b><br/>
+        525 W 30th St.<br/>
+        Best way to traverse south to 14th St without dealing with sidewalks. Full bloom in mid-May.<br/>
+        <i>~45 min on the line</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-74.0022969,40.7528349,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>4 — Little Island, Pier 55 (12:45 PM)</name>
+      <description><![CDATA[
+        <b>Hudson views, brief stop.</b><br/>
+        Pier 55 at Hudson River Park.<br/>
+        Worth fifteen minutes. If anyone in the crew hasn't been since it opened in 2021, this is the time.<br/>
+        <i>~30 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-74.010299,40.7420024,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>5 — Caffè Reggio (1:45 PM)</name>
+      <description><![CDATA[
+        <b>Greenwich Village pit stop.</b><br/>
+        119 MacDougal St. Open since 1927.<br/>
+        The first cappuccino machine in America is still on the bar. Sit, regroup, decompress from the food festival before the parade chaos.<br/>
+        <i>~45 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-74.0003706,40.7303079,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>6 — Washington Square Park (2:30 PM)</name>
+      <description><![CDATA[
+        <b>Cut through east toward the parade.</b><br/>
+        Pianist, chess, the usual NYC tableau. Parade should be moving down 6th and east on 8th around now.<br/>
+        <i>~20 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.997332,40.7308838,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>7 — Astor Place & St Marks (2:50 PM)</name>
+      <description><![CDATA[
+        <b>Catch the parade.</b><br/>
+        Parade route turns east on St Marks heading to Tompkins. Best place to fall in with the dancers on their final stretch.<br/>
+        <i>~25 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9898709,40.7295384,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>8 — Tompkins Square Park / DanceFest (3:30 PM)</name>
+      <description><![CDATA[
+        <b>The day's anchor.</b><br/>
+        DanceFest 3–7pm. Multiple stages, teaching stage, DJ area. Where the parade lands.<br/>
+        <i>~2.5 hours</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9817841,40.7264295,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>9 — Veselka (6:15 PM)</name>
+      <description><![CDATA[
+        <b>Dinner.</b><br/>
+        144 2nd Ave.<br/>
+        Pierogies, borscht, latkes. Three blocks from Tompkins. Open 24 hours on Saturday, no rush.<br/>
+        <i>~75 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9871139,40.7290155,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Route — walking path</name>
+      <description>Approximate walking line through the 9 stops, west-to-east.</description>
+      <styleUrl>#routeStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -73.9856429,40.7684962,0
+          -73.9857354,40.767931,0
+          -74.0022969,40.7528349,0
+          -74.010299,40.7420024,0
+          -74.0003706,40.7303079,0
+          -73.997332,40.7308838,0
+          -73.9898709,40.7295384,0
+          -73.9817841,40.7264295,0
+          -73.9871139,40.7290155,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>
