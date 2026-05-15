@@ -21,6 +21,21 @@ export default function Timeline() {
                 <p className="text-sm font-medium text-route">{s.time}</p>
               </div>
               <p className="mt-1 text-sm leading-snug text-gray-700">{s.note}</p>
+              {s.bucketList && s.bucketList.length > 0 && (
+                <ul className="mt-3 space-y-1.5 border-t border-gray-100 pt-2.5">
+                  {s.bucketList.map((item, i) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 text-[13px] leading-snug text-gray-700"
+                    >
+                      <span className="text-route" aria-hidden="true">
+                        ✦
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </li>
         ))}

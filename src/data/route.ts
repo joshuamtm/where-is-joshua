@@ -7,6 +7,11 @@ export type Stop = {
   lng: number;
   note: string;
   durationMin: number;
+  /**
+   * Quick, quintessentially-NYC things to do at this stop. 15–30 min each.
+   * Optional; render as a small list below the note in the timeline.
+   */
+  bucketList?: string[];
 };
 
 export const stops: Stop[] = [
@@ -19,6 +24,10 @@ export const stops: Stop[] = [
     lng: -73.9856429,
     note: "Strong espresso, no laptops. Pastries are real. Sets the tone before the food assault.",
     durationMin: 45,
+    bucketList: [
+      "Stand at the bar and have an espresso the Italian way",
+      "Keep the laptop closed",
+    ],
   },
   {
     ordinal: 2,
@@ -29,6 +38,11 @@ export const stops: Stop[] = [
     lng: -73.9857354,
     note: "Enter at 57th, graze south to 42nd. 51st year, mile-long. Don't fill up on the first three blocks.",
     durationMin: 90,
+    bucketList: [
+      "Try something from a vendor I've never seen before",
+      "Fresh zeppole on the sidewalk",
+      "Don't fill up before block four",
+    ],
   },
   {
     ordinal: 3,
@@ -39,6 +53,10 @@ export const stops: Stop[] = [
     lng: -74.0022969,
     note: "Walk south on the elevated park. Full bloom in mid-May.",
     durationMin: 45,
+    bucketList: [
+      "Find a city view I've never noticed before",
+      "Sit on the 10th Ave overlook for 5 minutes",
+    ],
   },
   {
     ordinal: 4,
@@ -49,6 +67,9 @@ export const stops: Stop[] = [
     lng: -74.010299,
     note: "Hudson views, 15 minutes. Pier 55.",
     durationMin: 30,
+    bucketList: [
+      "Take a slow 360° at the top platform and count the bridges",
+    ],
   },
   {
     ordinal: 5,
@@ -59,6 +80,10 @@ export const stops: Stop[] = [
     lng: -74.0003706,
     note: "1927. America's first cappuccino machine is still on the bar. Sit, regroup.",
     durationMin: 45,
+    bucketList: [
+      "Order a real cappuccino at the 1927 bar",
+      "Stay long enough to overhear someone arguing about a screenplay",
+    ],
   },
   {
     ordinal: 6,
@@ -69,6 +94,11 @@ export const stops: Stop[] = [
     lng: -73.997332,
     note: "Cut through east. Pianist, chess, the usual.",
     durationMin: 20,
+    bucketList: [
+      "Lose two games of speed chess to a regular",
+      "Tip a busker enough to feel slightly weird about it",
+      "Walk under the arch slowly",
+    ],
   },
   {
     ordinal: 7,
@@ -79,6 +109,10 @@ export const stops: Stop[] = [
     lng: -73.9898709,
     note: "Parade turns east on St Marks. Fall in with the dancers for the final stretch.",
     durationMin: 25,
+    bucketList: [
+      "Give the Astor Place Cube a spin",
+      "Buy something for under $5 from a St Marks vendor",
+    ],
   },
   {
     ordinal: 8,
@@ -89,6 +123,11 @@ export const stops: Stop[] = [
     lng: -73.9817841,
     note: "Multiple stages, teaching stage, DJ area. 3–7 PM. The day's anchor.",
     durationMin: 150,
+    bucketList: [
+      "Dance with at least one stranger",
+      "Stay for one full set on a stage I wandered into",
+      "Find the dog run for 5 minutes",
+    ],
   },
   {
     ordinal: 9,
@@ -99,5 +138,9 @@ export const stops: Stop[] = [
     lng: -73.9871139,
     note: "Pierogies, borscht, latkes. Three blocks from Tompkins. Open 24h on Saturday.",
     durationMin: 75,
+    bucketList: [
+      "Order both pierogies AND borscht",
+      "Sit in a booth long enough that someone tries to share it",
+    ],
   },
 ];
