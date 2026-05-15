@@ -15,9 +15,13 @@ function pinIcon(ordinal: number) {
 
 const polyline: [number, number][] = stops.map((s) => [s.lat, s.lng]);
 
+// Tight bounds: just north of Houston St (south) up to 72nd St (north),
+// roughly Hudson River (west) to 5th Ave (east). Crops Belvedere
+// Castle (~79th St) off the map view — still visible in the timeline.
 const bounds: LatLngBoundsExpression = L.latLngBounds(
-  stops.map((s) => L.latLng(s.lat, s.lng))
-).pad(0.12);
+  L.latLng(40.7245, -74.012),
+  L.latLng(40.7745, -73.965)
+);
 
 export default function RouteMap() {
   return (
@@ -26,7 +30,7 @@ export default function RouteMap() {
         <MapContainer
           bounds={bounds}
           scrollWheelZoom={false}
-          className="h-[60vh] max-h-[500px] w-full"
+          className="h-[70vh] max-h-[600px] w-full"
         >
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
