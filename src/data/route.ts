@@ -42,7 +42,7 @@ export const stops: Stop[] = [
     bucketList: [
       "Stand under the lower arcade and listen for a busker echo",
       "Hum one sustained note under the arcade and briefly become the busker",
-      "Propose marriage to a stranger under the arcade; accept their counteroffer",
+      "Propose marriage to a stranger under the arcade; accept ANY counteroffer",
     ],
   },
   {
