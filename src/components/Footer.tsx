@@ -22,6 +22,18 @@ export default function Footer() {
           Download KML
         </a>
       </div>
+      <p className="mx-auto mt-2 max-w-sm text-xs leading-relaxed text-gray-500">
+        A KML is a map file. Drop it into{" "}
+        <a
+          href="https://mymaps.google.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-cta"
+        >
+          Google My Maps
+        </a>{" "}
+        or Google Earth to see the route in your own view.
+      </p>
       <p className="mt-4 text-xs text-gray-400">Built in a night with Claude Code</p>
     </footer>
   );
