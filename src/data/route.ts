@@ -25,8 +25,9 @@ export const stops: Stop[] = [
     note: "Start under the celestial ceiling. Quick coffee in the food court, then head north on Madison toward the park.",
     durationMin: 30,
     bucketList: [
-      "Look up and find the orientation error in the ceiling mural",
-      "Whisper to a friend across the Whispering Gallery archway",
+      "Look up and find the orientation error in the celestial ceiling mural",
+      "Locate the \"dirty\" rectangle the restorers left in the ceiling and salute it",
+      "Order a coffee using milk-and-sugar shorthand from at least four countries before landing on \"light and sweet\" for New York (flat white → Australia, café au lait → France, cortado → Spain, melange → Austria, then: \"light and sweet\")",
     ],
   },
   {
@@ -40,7 +41,8 @@ export const stops: Stop[] = [
     durationMin: 30,
     bucketList: [
       "Stand under the lower arcade and listen for a busker echo",
-      "Find the Angel of the Waters",
+      "Hum one sustained note under the arcade and briefly become the busker",
+      "Propose marriage to a stranger under the arcade; accept their counteroffer",
     ],
   },
   {
@@ -54,6 +56,8 @@ export const stops: Stop[] = [
     durationMin: 30,
     bucketList: [
       "Climb to the upper deck and pick out three landmarks south of the park",
+      "Point at three landmarks and confidently misname two of them",
+      "Declare a minor war on a landmark south of the park, then sue for peace before lunch",
     ],
   },
   {
@@ -67,6 +71,8 @@ export const stops: Stop[] = [
     durationMin: 15,
     bucketList: [
       "Find the USS Maine Monument and read the south face",
+      "Read the inscription aloud as if delivering a wedding toast",
+      "Lap the fountain counterclockwise to spite Columbus personally",
     ],
   },
   {
@@ -80,8 +86,8 @@ export const stops: Stop[] = [
     durationMin: 120,
     bucketList: [
       "Try something from a vendor I've never seen before",
-      "Fresh zeppole on the sidewalk",
-      "Don't fill up before block four",
+      "Eat something on a stick whose origin I cannot identify",
+      "Get powdered sugar on at least one consenting stranger; document the exchange",
     ],
   },
   {
@@ -94,8 +100,9 @@ export const stops: Stop[] = [
     note: "Walk south on the elevated park. Full bloom in mid-May.",
     durationMin: 45,
     bucketList: [
-      "Find a city view I've never noticed before",
       "Sit on the 10th Ave overlook for 5 minutes",
+      "Identify one plant by a name I invent on the spot and defend it under questioning",
+      "Stare at one window of one apartment long enough that the resident notices",
     ],
   },
   {
@@ -109,6 +116,8 @@ export const stops: Stop[] = [
     durationMin: 25,
     bucketList: [
       "Take a slow 360° at the top platform and count the bridges",
+      "Miscount the bridges on purpose and argue with myself about it",
+      "Tell one tourist this is where they filmed something. Don't specify what.",
     ],
   },
   {
@@ -122,7 +131,8 @@ export const stops: Stop[] = [
     durationMin: 30,
     bucketList: [
       "Order a real cappuccino at the 1927 bar",
-      "Stay long enough to overhear someone arguing about a screenplay",
+      "Audibly say '1927' before the first sip, like a vintage",
+      "Eavesdrop on a screenplay argument, pick a side, and defend it to my tablemate as if I wrote it",
     ],
   },
   {
@@ -136,8 +146,7 @@ export const stops: Stop[] = [
     durationMin: 45,
     bucketList: [
       "Lose two games of speed chess to a regular",
-      "Tip a busker enough to feel slightly weird about it",
-      "Walk under the arch slowly",
+      "Help at least two tourists lose their virginity (logistics: my problem)",
     ],
   },
   {
@@ -151,7 +160,8 @@ export const stops: Stop[] = [
     durationMin: 25,
     bucketList: [
       "Give the Astor Place Cube a spin",
-      "Buy something for under $5 from a St Marks vendor",
+      "Buy something under $5 from a St Marks vendor that cannot legally be returned",
+      "Make brief, confusing eye contact with at least three people in leather",
     ],
   },
   {
@@ -164,9 +174,9 @@ export const stops: Stop[] = [
     note: "Catch the last hour of DanceFest. Multiple stages until 7 PM. The day's evening anchor.",
     durationMin: 75,
     bucketList: [
-      "Dance with at least one stranger",
       "Stay for one full set on a stage I wandered into",
-      "Find the dog run for 5 minutes",
+      "Dance with a stranger using one signature move; commit until they leave",
+      "Start a slow clap that does not catch on",
     ],
   },
   {
@@ -181,6 +191,7 @@ export const stops: Stop[] = [
     bucketList: [
       "Order both pierogies AND borscht",
       "Sit in a booth long enough that someone tries to share it",
+      "Order a fourth thing I do not need, \"for the table\"",
     ],
   },
 ];
