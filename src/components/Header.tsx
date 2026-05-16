@@ -8,7 +8,7 @@ export default function Header() {
         Wandering Jew
       </h1>
       <p className="mt-2 text-base text-gray-600 sm:text-lg">
-        Wandering Manhattan. Catch up if you can.
+        Wandering Manhattan. Join me if you like.
       </p>
     </header>
   );
