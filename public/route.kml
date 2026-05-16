@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Saturday May 16 — Manhattan Wander</name>
-    <description>Grand Central → Central Park → Hell's Kitchen → Hudson River Park → Greenwich Village → East Village. 11 stops, north-to-south then a Hudson detour, walking pace. Anchored by the 9th Ave Food Festival (midday) and a Pier 57 lunch break (afternoon).</description>
+    <description>Grand Central → Central Park → Hell's Kitchen → Hudson River Park → LES → Greenwich Village → East Village. 11 stops, walking pace, with a Daredevil tattoo appointment anchoring the late afternoon.</description>
 
     <Style id="stopStyle">
       <IconStyle>
@@ -79,9 +79,9 @@
     <Placemark>
       <name>5 — 9th Ave Food Festival (1:00 PM)</name>
       <description><![CDATA[
-        <b>Enter at 57th, graze south to 42nd.</b><br/>
-        51st year. Mile-long. Don't fill up on the first three blocks.<br/>
-        <i>~120 min</i>
+        <b>Quick graze, one hour only.</b><br/>
+        Enter at 57th, move with intent, hit the highlights. 4 PM appointment waiting.<br/>
+        <i>~60 min</i>
       ]]></description>
       <styleUrl>#stopStyle</styleUrl>
       <Point>
@@ -90,11 +90,11 @@
     </Placemark>
 
     <Placemark>
-      <name>6 — Pier 57, Hudson River Park (3:30 PM)</name>
+      <name>6 — Pier 57, Hudson River Park (2:30 PM)</name>
       <description><![CDATA[
-        <b>Lunch + rest at the river.</b><br/>
-        Market 57 food hall on the ground, rooftop park up top. The pivot point before turning east into the Village.<br/>
-        <i>~90 min</i>
+        <b>Lunch + brief rest at the river.</b><br/>
+        Market 57 food hall on the ground, rooftop park up top. Cab east from here to Daredevil.<br/>
+        <i>~60 min</i>
       ]]></description>
       <styleUrl>#stopStyle</styleUrl>
       <Point>
@@ -103,11 +103,24 @@
     </Placemark>
 
     <Placemark>
-      <name>7 — Caffè Reggio (5:15 PM)</name>
+      <name>7 — Daredevil Tattoo (4:00 PM)</name>
+      <description><![CDATA[
+        <b>Booked appointment.</b><br/>
+        141 Division St, edge of LES and Chinatown. Shop houses the NYC Tattoo History Museum — original flash from Samuel O'Reilly, Bert Grimm, Cap Coleman.<br/>
+        <i>~90 min</i>
+      ]]></description>
+      <styleUrl>#stopStyle</styleUrl>
+      <Point>
+        <coordinates>-73.9919,40.7138,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>8 — Caffè Reggio (5:45 PM)</name>
       <description><![CDATA[
         <b>1927. America's first cappuccino machine is still on the bar.</b><br/>
-        Sit, regroup.<br/>
-        <i>~30 min</i>
+        Sit, regroup, ice the new ink.<br/>
+        <i>~25 min</i>
       ]]></description>
       <styleUrl>#stopStyle</styleUrl>
       <Point>
@@ -116,11 +129,10 @@
     </Placemark>
 
     <Placemark>
-      <name>8 — Washington Square Park (6:00 PM)</name>
+      <name>9 — Washington Square Park (6:15 PM)</name>
       <description><![CDATA[
         <b>Find a chess hustler. Sit at the fountain.</b><br/>
-        The afternoon pause before DanceFest.<br/>
-        <i>~30 min</i>
+        <i>~25 min</i>
       ]]></description>
       <styleUrl>#stopStyle</styleUrl>
       <Point>
@@ -129,7 +141,7 @@
     </Placemark>
 
     <Placemark>
-      <name>9 — Astor Place &amp; St Marks (6:45 PM)</name>
+      <name>10 — Astor Place &amp; St Marks (6:50 PM)</name>
       <description><![CDATA[
         <b>Cube spin. Down St Marks toward Tompkins.</b><br/>
         <i>~20 min</i>
@@ -141,10 +153,10 @@
     </Placemark>
 
     <Placemark>
-      <name>10 — Tompkins Square Park, DanceFest (7:15 PM)</name>
+      <name>11 — Tompkins Square Park, DanceFest (7:15 PM)</name>
       <description><![CDATA[
-        <b>Catch the tail end if anything's still running</b><br/>
-        Or just absorb the post-fest park energy.<br/>
+        <b>Catch the tail end if anything's still running, or just absorb the post-fest park energy.</b><br/>
+        Last stop — home from here (or from Caffè Reggio earlier, if the day's done).<br/>
         <i>~45 min</i>
       ]]></description>
       <styleUrl>#stopStyle</styleUrl>
@@ -154,21 +166,8 @@
     </Placemark>
 
     <Placemark>
-      <name>11 — Veselka (8:15 PM)</name>
-      <description><![CDATA[
-        <b>Pierogies, borscht, latkes.</b><br/>
-        Three blocks from Tompkins. Open 24h on Saturday.<br/>
-        <i>~75 min</i>
-      ]]></description>
-      <styleUrl>#stopStyle</styleUrl>
-      <Point>
-        <coordinates>-73.9871,40.7290,0</coordinates>
-      </Point>
-    </Placemark>
-
-    <Placemark>
       <name>Route — walking path</name>
-      <description>Approximate walking line through the 11 stops, north-to-south with a Hudson River detour.</description>
+      <description>Approximate walking line through the 11 stops. Cab east from Pier 57 (stop 6) to Daredevil (stop 7).</description>
       <styleUrl>#routeStyle</styleUrl>
       <LineString>
         <tessellate>1</tessellate>
@@ -179,11 +178,11 @@
           -73.9819,40.7681,0
           -73.9857,40.7679,0
           -74.0103,40.7434,0
+          -73.9919,40.7138,0
           -74.0004,40.7303,0
           -73.9973,40.7309,0
           -73.9899,40.7295,0
           -73.9818,40.7264,0
-          -73.9871,40.7290,0
         </coordinates>
       </LineString>
     </Placemark>
