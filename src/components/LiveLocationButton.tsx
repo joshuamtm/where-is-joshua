@@ -12,7 +12,7 @@ export default function LiveLocationButton() {
           className="block w-full rounded-2xl bg-gray-200 px-6 py-4 text-center text-base font-semibold text-gray-500 sm:text-lg"
           aria-disabled="true"
         >
-          Live location starts at 9 AM
+          Live location starts at 10 AM
         </button>
       </div>
     );
