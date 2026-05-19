@@ -12,9 +12,8 @@ export default function Intro() {
         <p>
           The stops below are more suggestions than a strict schedule. Other
           suggestions welcome. And if you feel like joining in for 10 minutes
-          or 10 hours, just come and find me. Click the link below for my
-          live location in Google Maps. You are welcome to try texting me or
-          calling me as well, but no promises on response time.
+          or 10 hours, just come and find me. You are welcome to try texting
+          me or calling me as well, but no promises on response time.
         </p>
       </div>
     </section>
